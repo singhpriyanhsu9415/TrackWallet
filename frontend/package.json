@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "overrides": {
-  "rollup": "3.29.4"
+  "rollup": "^3.25.0"
 },
   "dependencies": {
     "@headlessui/react": "^2.2.2",
