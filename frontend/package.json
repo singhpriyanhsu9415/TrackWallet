@@ -9,9 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "overrides": {
-  "rollup": "^3.25.0"
-},
+
   "dependencies": {
     "@headlessui/react": "^2.2.2",
     "@heroicons/react": "^2.2.0",
@@ -43,6 +41,6 @@
     "globals": "^16.0.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4",
-    "vite": "^6.3.3"
+    "vite": "^5.2.10"
   }
 }
