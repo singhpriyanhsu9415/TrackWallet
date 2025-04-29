@@ -60,7 +60,7 @@ const HeroSection = () => {
             <div className="p-4 rounded-full bg-blue-500 text-white mb-4">
               <FaSignInAlt className="text-xl" />
             </div>
-            <h3 className="mb-3 font-semibold">Sign Up</h3>
+            <h3 className="mb-2 font-semibold">Sign Up</h3>
             <p>Register and start managing your expenses in a minute.</p>
           </div>
           {/* Step 2 */}
