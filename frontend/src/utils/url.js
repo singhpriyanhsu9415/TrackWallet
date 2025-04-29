@@ -1,1 +1,1 @@
-export const BASE_URL = "https://trackwallet-z72k.onrender.com";
+export const BASE_URL = "https://trackwallet-z72k.onrender.com/api/v1";
