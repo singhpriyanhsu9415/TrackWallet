@@ -16,7 +16,7 @@ mongoose
 
 //! Cors config
 app.use(cors({
-  origin: 'https://trackwallet-z72k.onrender.com',
+  origin: 'https://track-wallet-one.vercel.app',
   // methods: ['GET', 'POST', 'PUT', 'DELETE'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   // allowedHeaders: ['Content-Type', 'Authorization'],
