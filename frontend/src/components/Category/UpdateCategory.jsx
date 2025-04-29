@@ -55,7 +55,7 @@ const UpdateCategory = () => {
   });
 
   return (
-    <div  className="bg-gradient-to-r from-white-400 to-gray-500 text-white py-20 px-4">
+    <div  className="bg-gradient-to-r from-white-400 to-gray-500 text-black py-20 px-4">
     <form
       onSubmit={formik.handleSubmit}
       className="max-w-lg mx-auto my-10 bg-white p-6 rounded-lg shadow-lg space-y-6"

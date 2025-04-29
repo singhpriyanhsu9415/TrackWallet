@@ -39,7 +39,7 @@ const CategoriesList = () => {
       .catch((e) => console.log(e));
   };
   return (
-    <div  className="bg-gradient-to-r from-white-400 to-blue-500 text-white py-20 px-4">
+    <div  className="bg-gradient-to-r from-white-400 to-blue-500 text-black py-20 px-4">
         <div className="max-w-md mx-auto my-10 bg-white p-6 rounded-lg shadow-lg ">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4">Categories</h2>
       {/* Display message */}
