@@ -31,7 +31,7 @@ const corsOptions = {
   },
   credentials: true,           // Important for cookies/auth
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'authorization', 'X-Requested-With']
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
 };
 
 // Apply CORS to all routes
