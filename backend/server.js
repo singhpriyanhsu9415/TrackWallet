@@ -15,10 +15,14 @@ mongoose
   .catch((e) => console.log(e));
 
 //! Cors config
-const corsOptions = {
-  origin: ["http://localhost:5173"],
-};
-app.use(cors(corsOptions));
+app.use(cors({
+  origin: 'https://track-wallet-one.vercel.app',
+  // methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  // allowedHeaders: ['Content-Type', 'Authorization'],
+  allowedHeaders: ['Content-Type', 'Authorization','token'],
+  credentials: true
+}));
 //!Middlewares
 app.use(express.json()); //?Pass incoming json data
 //!Routes
